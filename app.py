@@ -314,8 +314,4 @@ if image is not None:
         ranked = predict(image, model, names)
     render_result(ranked)
 
-st.markdown(
-    '<p class="note">This tool gives a quick first opinion from a photo. It was trained on four leaf types only, '
-    "so it can be wrong on other diseases, pests or nutrient problems. For a final decision, check with a local agronomist or extension officer.</p>",
-    unsafe_allow_html=True,
-)
+

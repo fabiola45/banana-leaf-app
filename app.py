@@ -174,6 +174,18 @@ h1, h2, h3 { font-family: 'Bricolage Grotesque', sans-serif; letter-spacing: -0.
   .hero { padding: 2.2rem 1.4rem 2rem; border-radius: 22px; }
   .bar-row { grid-template-columns: 6.8rem 1fr 3.2rem; }
 }
+[data-testid="stImage"] img,
+.stImage img {
+  max-height: 420px;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 18px;
+}
+[data-testid="stCameraInput"] img,
+[data-testid="stCameraInput"] video {
+  max-height: 420px;
+  object-fit: contain;
+}
 </style>
 """
 
